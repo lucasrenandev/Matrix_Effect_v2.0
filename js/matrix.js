@@ -18,7 +18,7 @@ const fontSize = 16
 const columns = Math.floor(sectionWidth / fontSize)
 const drops = []
 
-// Laço para dividir as colunas da seção
+// Laço para criar colunas na seção
 for(let x = 0; x < columns; x++) {
     drops[x] = 1
 }
