@@ -1,4 +1,4 @@
-// Selecionando os elementos
+// Elementos
 const section = document.getElementById("section")
 const canvas = document.getElementById("canvas")
 const context = canvas.getContext("2d")
@@ -42,8 +42,7 @@ function matrixEffect() {
         }
         drops[i]++
     }
-
     matrixEffectStyle()
 }
-// Adicionando a função matrix effect dentro de um intervalo
+// Adicionando função matrix effect dentro de um intervalo
 setInterval(matrixEffect, 30);
