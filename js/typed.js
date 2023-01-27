@@ -1,3 +1,6 @@
+// Modo estrito
+"use strict"
+
 // Efeito de digitação
 const typed = new Typed("#typed", {
     strings: ["Hello, be welcome!", "My name is Lucas Renan", "I'm 26 years old", "I from Brazil, SP",
