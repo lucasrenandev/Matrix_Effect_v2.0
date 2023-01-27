@@ -1,3 +1,6 @@
+// Modo estrito
+"use strict"
+
 // Elementos
 const section = document.getElementById("section")
 const canvas = document.getElementById("canvas")
